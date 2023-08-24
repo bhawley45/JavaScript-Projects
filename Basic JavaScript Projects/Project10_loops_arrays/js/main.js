@@ -36,6 +36,12 @@ const myObject = {
     occupation: "Developer"
 };
 
+let otherObject = {
+    name: "Steve",
+    age: 256,
+    occupation: "Developer"
+};
+
 // Change property value
 myObject.age = 31;
 
@@ -45,4 +51,9 @@ myObject.location = "New York";
 function constantFunction() {
     const output = `Name: ${myObject.name}, Age: ${myObject.age}, Occupation: ${myObject.occupation}, Location: ${myObject.location}`;
     document.getElementById("Constant").innerHTML = output;
+}
+
+function letFunction() {
+    const output = `Name: ${otherObject.name}, Age: ${otherObject.age}, Occupation: ${otherObject.occupation}`;
+    document.getElementById("Let").innerHTML = output;
 }
