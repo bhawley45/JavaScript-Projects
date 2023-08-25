@@ -1,0 +1,47 @@
+body {
+    background-color: #333;
+}
+
+.center {
+    text-align: center;
+}
+
+.grey {
+    background-color: grey;
+    padding: 15px;
+}
+
+/*This container includes the table and canvas*/
+.center-container {
+    /*Set width and center container on page*/
+    width: 608px;
+    margin: 0 auto;
+    /*move container downward by 50px*/
+    margin-top: 50px;
+}
+
+table {
+    /*collapses to a single bnorder, removing gaps between cells*/
+    border-collapse: collapse;
+    /*hide borders*/
+    border-style: hidden;
+}
+
+td {
+    cursor: pointer;
+    border: 4px solid papayawhip;
+    /*Remove default td padding*/
+    padding: 0;
+    width: 200px;
+    height: 200px;
+    /*Increase contrast of element 3x normal*/
+    filter: contrast(3);
+}
+
+canvas {
+    /*Set canvas to top-left corner of container*/
+    position: absolute;
+    z-index: 10;
+    /*Make canvas invisible (keep pointer from reacting)*/
+    pointer-events: none;
+}
