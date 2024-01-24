@@ -1,5 +1,5 @@
 # JavaScript-Projects
-A repository for all the projects incorporating javascript created through the Tech Academy Bootcamp
+A repository for simple projects made in JavaScript 
 
 ## Projects
 - Pizza Manu Project
